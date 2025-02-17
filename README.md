@@ -19,6 +19,6 @@ Expected Behavior: Updates an existing object identified by its id with the prov
 This code was written for the purpose of a lab for a ECSE3038 IOT course.
 
 ## Two Truths and a Lie
-I graduated high school at 14.
-I play for the university's volleyball team.
+I graduated high school at 14.\
+I play for the university's volleyball team.\
 I like anime.
