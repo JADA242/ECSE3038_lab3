@@ -3,16 +3,16 @@
 This project implements a RESTful API that supports posting, getting, deleting, and updating of objects. 
 
 ### Functions:
-POST /tank
+POST /tank\
 Accepts data and creates a new object in the database. Returns a 201 status code upon successful creation.
 
-GET /tank/{id}
+GET /tank/{id}\
 Retrieves an object by its unique id. Returns a 200 status code with the object data if found, or a 404 status code if not found.
 
-DELETE /tank/{id}
+DELETE /tank/{id}\
 Deletes an object with the specified id. Returns a 204 status code with no content if the deletion is successful. If the object is not found, returns a 404 status code with a message indicating the object could not be found.
 
-PATCH /tank/{id}
+PATCH /tank/{id}\
 Expected Behavior: Updates an existing object identified by its id with the provided data. Returns a 200 status code with the updated object or a 404 status code if the object doesn't exist.
 
 ## Purpose
